@@ -21,9 +21,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class CustomKeyword {
-	
+
 	@Keyword
 	def MyMessage() {
-		println("Hello");
+		println("Hello Friend");
 	}
 }
