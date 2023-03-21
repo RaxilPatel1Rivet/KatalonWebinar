@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This tese case is created by writing script.</description>
+   <name>ScriptModeDemo</name>
+   <tag>Demo; Scripting</tag>
+   <comment></comment>
+   <testCaseGuid>aa289d6c-39ca-4e0d-afa5-191a9a114a60</testCaseGuid>
+</TestCaseEntity>

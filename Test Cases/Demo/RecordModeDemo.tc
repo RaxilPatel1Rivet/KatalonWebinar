@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is creating test case by recording.</description>
+   <name>RecordModeDemo</name>
+   <tag>Demo; Recording</tag>
+   <comment></comment>
+   <testCaseGuid>7429f7c3-99fb-4b12-aea8-52c3e7b62a38</testCaseGuid>
+</TestCaseEntity>

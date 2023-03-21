@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5022F96E5E9CA26100A5288BD3ACA6B1",
+  "keywordClasses": [
+    {
+      "name": "myKeyword.CustomKeyword",
+      "keywordMethods": [
+        {
+          "name": "MyMessage",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
