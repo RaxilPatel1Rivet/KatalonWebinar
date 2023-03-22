@@ -1,0 +1,28 @@
+1
+00:00:00,010 --> 00:00:04,396
+1. openBrowser("", STOP_ON_FAILURE)
+
+2
+00:00:04,398 --> 00:00:04,768
+5. maximizeWindow()
+
+3
+00:00:04,770 --> 00:00:09,148
+9. navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+
+4
+00:00:09,149 --> 00:00:10,640
+13. setText(findTestObject("Object Repository/ManualModeDemo/Page_OrangeHRM/input_Username_username"), username)
+
+5
+00:00:10,641 --> 00:00:11,103
+17. setEncryptedText(findTestObject("Object Repository/ManualModeDemo/Page_OrangeHRM/input_Password_password"), password)
+
+6
+00:00:11,104 --> 00:00:11,512
+21. click(findTestObject("Object Repository/ManualModeDemo/Page_OrangeHRM/button_Login"))
+
+7
+00:00:11,513 --> 00:00:12,214
+25. verifyTextPresent("Dashboard", false)
+

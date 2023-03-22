@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HerokuTestSuite,Chrome 111.0.0.0,This is demo,,2023-03-15 18:48:18,2023-03-15 18:48:35,16.648s,PASSED
+,,,,,,,
+Test Cases/Demo/Demo,Chrome 111.0.0.0,,,2023-03-15 18:48:19,2023-03-15 18:48:35,16.010s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-15 18:48:20,2023-03-15 18:48:27,7.083s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 111.0.0.0,,,2023-03-15 18:48:27,2023-03-15 18:48:30,2.994s,PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-03-15 18:48:30,2023-03-15 18:48:33,2.380s,PASSED
+Video,Chrome 111.0.0.0,,,2023-03-15 18:48:35,2023-03-15 18:48:35,0.009s,PASSED

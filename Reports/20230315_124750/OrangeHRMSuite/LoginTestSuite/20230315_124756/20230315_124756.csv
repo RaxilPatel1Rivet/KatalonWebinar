@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginTestSuite,Firefox 111.0,Login Test suite will be used to execute scenarios of login module.,,2023-03-15 12:48:25,2023-03-15 12:50:38,2m - 13.638s,FAILED
+,,,,,,,
+Test Cases/Demo/ManualModeDemo,Firefox 111.0,This is manually creating test case.,Demo; Manual,2023-03-15 12:50:13,2023-03-15 12:50:38,25.475s,FAILED
+"openBrowser("""")",Firefox 111.0,,,2023-03-15 12:50:13,2023-03-15 12:50:20,7.031s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 111.0,,,2023-03-15 12:50:20,2023-03-15 12:50:27,6.922s,PASSED
+maximizeWindow(),Firefox 111.0,,,2023-03-15 12:50:27,2023-03-15 12:50:27,0.032s,PASSED
+"setText(findTestObject(""ManualModeDemo/Page_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 111.0,,,2023-03-15 12:50:27,2023-03-15 12:50:31,4.625s,PASSED
+"setEncryptedText(findTestObject(""ManualModeDemo/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 111.0,,,2023-03-15 12:50:31,2023-03-15 12:50:32,0.569s,PASSED
+"click(findTestObject(""ManualModeDemo/Page_OrangeHRM/button_Login""))",Firefox 111.0,,,2023-03-15 12:50:32,2023-03-15 12:50:38,5.749s,PASSED
+"verifyTextPresent(""Dashboard"", false)",Firefox 111.0,,,2023-03-15 12:50:38,2023-03-15 12:50:38,0.530s,FAILED

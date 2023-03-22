@@ -1,0 +1,100 @@
+1
+00:00:01,325 --> 00:00:10,361
+1. openBrowser("")
+
+2
+00:00:10,383 --> 00:00:14,454
+7. Navigating to our base url.
+
+
+3
+00:00:14,456 --> 00:00:16,655
+13. Waiting for the "Make Appointment" button to visible.
+
+4
+00:00:16,657 --> 00:00:18,335
+19. Clicking on the "Make Appointment" button.
+
+5
+00:00:18,338 --> 00:00:19,839
+25. Adding "John Doe" as username.
+ 
+
+6
+00:00:19,840 --> 00:00:21,152
+31. Adding password for the user.
+
+
+7
+00:00:21,153 --> 00:00:21,731
+37. Verifying that login button is clickable or not ?
+
+8
+00:00:21,732 --> 00:00:23,492
+43. Clicking on login button.
+
+
+9
+00:00:23,494 --> 00:00:25,213
+49. Selecting value from the dropdown box.
+
+10
+00:00:25,214 --> 00:00:25,925
+55. Checking checkbox.
+
+
+
+11
+00:00:25,926 --> 00:00:26,594
+61. Selecting radio button.
+
+
+12
+00:00:26,595 --> 00:00:27,275
+67. Clicking on calender icon.
+
+13
+00:00:27,278 --> 00:00:27,978
+73. Clicking on "22" text.(Date)
+
+14
+00:00:27,980 --> 00:00:29,088
+79. Adding text into description text area.
+
+15
+00:00:29,090 --> 00:00:29,670
+85. Verifying that "Book Appointment"  button is clickable or not ?
+
+16
+00:00:29,671 --> 00:00:30,781
+91. Clicking on "Book Appointment" button.
+
+
+17
+00:00:30,782 --> 00:00:31,892
+97. Verfying text after clicking on "Book Appointment" button.
+
+18
+00:00:31,893 --> 00:00:32,543
+103. Verifying "Go to Homepage" button is visible or not.
+
+19
+00:00:32,544 --> 00:00:33,318
+109. Verifying "Go to Homepage" button is clickable or not.
+
+20
+00:00:33,320 --> 00:00:35,009
+115. Clicking on "Go to Homepage" button.
+
+21
+00:00:35,011 --> 00:00:35,636
+121. Waiting for the element of home page to be visible.
+
+22
+00:00:35,637 --> 00:00:36,434
+127. Verifying text from the home page.
+
+23
+00:00:36,435 --> 00:00:38,351
+133. Closing browser. 
+

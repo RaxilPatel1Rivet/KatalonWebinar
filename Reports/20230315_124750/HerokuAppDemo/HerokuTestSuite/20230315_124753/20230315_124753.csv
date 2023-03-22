@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HerokuTestSuite,Chrome 111.0.0.0,This is demo,,2023-03-15 12:48:14,2023-03-15 12:49:04,50.386s,PASSED
+,,,,,,,
+Test Cases/Demo/RecordModeDemo,Chrome 111.0.0.0,This is creating test case by recording.,Demo; Recording,2023-03-15 12:48:16,2023-03-15 12:49:04,48.131s,PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-03-15 12:48:18,2023-03-15 12:48:32,13.391s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 111.0.0.0,"Navigating to our base url.
+",,2023-03-15 12:48:32,2023-03-15 12:48:36,3.807s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Make Appointment""), 0)",Chrome 111.0.0.0,"Waiting for the ""Make Appointment"" button to visible.",,2023-03-15 12:48:36,2023-03-15 12:48:38,2.466s,PASSED
+"click(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 111.0.0.0,"Clicking on the ""Make Appointment"" button.",,2023-03-15 12:48:38,2023-03-15 12:48:41,2.628s,PASSED
+"setText(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 111.0.0.0,"Adding ""John Doe"" as username.
+ ",,2023-03-15 12:48:41,2023-03-15 12:48:43,2.320s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 111.0.0.0,"Adding password for the user.
+",,2023-03-15 12:48:43,2023-03-15 12:48:45,1.925s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Login""))",Chrome 111.0.0.0,Verifying that login button is clickable or not ?,,2023-03-15 12:48:45,2023-03-15 12:48:46,0.878s,PASSED
+"click(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Login""))",Chrome 111.0.0.0,"Clicking on login button.
+",,2023-03-15 12:48:46,2023-03-15 12:48:48,1.947s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 111.0.0.0,Selecting value from the dropdown box.,,2023-03-15 12:48:48,2023-03-15 12:48:50,2.249s,PASSED
+"click(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 111.0.0.0,"Checking checkbox.
+
+",,2023-03-15 12:48:50,2023-03-15 12:48:52,1.702s,PASSED
+"click(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 111.0.0.0,"Selecting radio button.
+",,2023-03-15 12:48:52,2023-03-15 12:48:53,1.184s,PASSED
+"click(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 111.0.0.0,Clicking on calender icon.,,2023-03-15 12:48:53,2023-03-15 12:48:54,1.218s,PASSED
+"click(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/td_22""))",Chrome 111.0.0.0,"Clicking on ""22"" text.(Date)",,2023-03-15 12:48:54,2023-03-15 12:48:56,1.355s,PASSED
+"setText(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/textarea_Comment_comment""), ""This is test"")",Chrome 111.0.0.0,Adding text into description text area.,,2023-03-15 12:48:56,2023-03-15 12:48:57,1.084s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 111.0.0.0,"Verifying that ""Book Appointment""  button is clickable or not ?",,2023-03-15 12:48:57,2023-03-15 12:48:57,0.523s,PASSED
+"click(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 111.0.0.0,"Clicking on ""Book Appointment"" button.
+",,2023-03-15 12:48:57,2023-03-15 12:48:58,1.353s,PASSED
+"verifyElementText(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 111.0.0.0,"Verfying text after clicking on ""Book Appointment"" button.",,2023-03-15 12:48:58,2023-03-15 12:48:59,0.634s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 111.0.0.0,"Verifying ""Go to Homepage"" button is visible or not.",,2023-03-15 12:48:59,2023-03-15 12:49:00,0.681s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 111.0.0.0,"Verifying ""Go to Homepage"" button is clickable or not.",,2023-03-15 12:49:00,2023-03-15 12:49:00,0.642s,PASSED
+"click(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 111.0.0.0,"Clicking on ""Go to Homepage"" button.",,2023-03-15 12:49:00,2023-03-15 12:49:02,1.282s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Chrome 111.0.0.0,Waiting for the element of home page to be visible.,,2023-03-15 12:49:02,2023-03-15 12:49:03,0.789s,PASSED
+"verifyElementText(findTestObject(""Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), ""CURA Healthcare Service"")",Chrome 111.0.0.0,Verifying text from the home page.,,2023-03-15 12:49:03,2023-03-15 12:49:03,0.457s,PASSED
+closeBrowser(),Chrome 111.0.0.0,Closing browser. ,,2023-03-15 12:49:03,2023-03-15 12:49:04,1.071s,PASSED

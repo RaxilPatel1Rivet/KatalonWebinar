@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HerokuTestSuite" time="55.298" tests="1" failures="0" errors="0">
+   <testsuite name="HerokuTestSuite" tests="1" failures="0" errors="0" time="55.298" skipped="0" timestamp="2023-03-15 17:30:48" hostname="Raxil.Patel - LP116.1rivet.local" id="Test Suites/HerokuAppDemo/HerokuTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Raxil.Patel\\workspace\\Katalon Studio\\Learning\\Web\\Webinar\\Web\\DemoForWebKS\\Reports\\20230315_173012\\HerokuAppDemo\\HerokuTestSuite\\20230315_173014"/>
+         <property name="logFiles" value="C:\\Users\\Raxil.Patel\\workspace\\Katalon Studio\\Learning\\Web\\Webinar\\Web\\DemoForWebKS\\Reports\\20230315_173012\\HerokuAppDemo\\HerokuTestSuite\\20230315_173014\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Raxil.Patel - LP116.1rivet.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 111.0.0.0"/>
+         <property name="hostAddress" value="172.16.1.132"/>
+         <property name="sessionId" value="a5ace0612b1580d2d3ba41affeca7fe9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo/RecordModeDemo" time="53.673" classname="Test Cases/Demo/RecordModeDemo" status="PASSED">
+         <system-out><![CDATA[2023-03-15 17:30:50 - [TEST_CASE][PASSED] - Test Cases/Demo/RecordModeDemo: Test Cases/Demo/RecordModeDemo
+
+2023-03-15 17:30:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-15 17:30:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-15 17:30:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-03-15 17:31:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-15 17:31:08 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-03-15 17:31:11 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2023-03-15 17:31:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Make Appointment"), 0): Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Make Appointment' is visible
+
+2023-03-15 17:31:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-15 17:31:15 - [MESSAGE][PASSED] - Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Make Appointment' is visible
+
+2023-03-15 17:31:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-03-15 17:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2023-03-15 17:31:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Username_username'
+
+2023-03-15 17:31:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Username_username'
+
+2023-03-15 17:31:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Password_password'
+
+2023-03-15 17:31:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Password_password'
+
+2023-03-15 17:31:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Login")): Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Login' is clickable
+
+2023-03-15 17:31:23 - [MESSAGE][PASSED] - Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Login' is clickable
+
+2023-03-15 17:31:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-03-15 17:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2023-03-15 17:31:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-03-15 17:31:27 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2023-03-15 17:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-03-15 17:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2023-03-15 17:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-03-15 17:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2023-03-15 17:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2023-03-15 17:31:29 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2023-03-15 17:31:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/td_22")): Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/td_22' is clicked on
+
+2023-03-15 17:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/td_22' is clicked on
+
+2023-03-15 17:31:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/textarea_Comment_comment"), "This is test"): Text 'This is test' is set on object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-03-15 17:31:31 - [MESSAGE][PASSED] - Text 'This is test' is set on object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2023-03-15 17:31:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Book Appointment")): Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Book Appointment' is clickable
+
+2023-03-15 17:31:32 - [MESSAGE][PASSED] - Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Book Appointment' is clickable
+
+2023-03-15 17:31:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-03-15 17:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2023-03-15 17:31:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h2_Appointment Confirmation"), "Appointment Confirmation"): Actual text and expected text of test object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+2023-03-15 17:31:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h2_Appointment Confirmation' are matched.
+
+2023-03-15 17:31:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage")): Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage' is visible
+
+2023-03-15 17:31:36 - [MESSAGE][PASSED] - Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage' is visible
+
+2023-03-15 17:31:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage")): Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage' is clickable
+
+2023-03-15 17:31:37 - [MESSAGE][PASSED] - Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage' is clickable
+
+2023-03-15 17:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-03-15 17:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2023-03-15 17:31:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), 0): Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h1_CURA Healthcare Service' is visible
+
+2023-03-15 17:31:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-03-15 17:31:41 - [MESSAGE][PASSED] - Object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h1_CURA Healthcare Service' is visible
+
+2023-03-15 17:31:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), "CURA Healthcare Service"): Actual text and expected text of test object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+2023-03-15 17:31:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/RecordModeDemo/Page_CURA Healthcare Service/h1_CURA Healthcare Service' are matched.
+
+2023-03-15 17:31:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-03-15 17:31:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-15 17:30:48 - [TEST_SUITE][PASSED] - HerokuTestSuite: Test Cases/Demo/RecordModeDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
