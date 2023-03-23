@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ListnerDmoSuite" time="5.604" tests="1" failures="0" errors="0">
+   <testsuite name="ListnerDmoSuite" tests="1" failures="0" errors="0" time="5.604" skipped="0" timestamp="2023-03-23 15:18:20" hostname="Raxil.Patel - LP116.1rivet.local" id="Test Suites/ListnerDmoSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Raxil.Patel\\workspace\\Katalon Studio\\Learning\\Web\\Webinar\\Web\\DemoForWebKS\\Reports\\20230323_151802\\ListnerDmoSuite\\20230323_151802"/>
+         <property name="logFiles" value="C:\\Users\\Raxil.Patel\\workspace\\Katalon Studio\\Learning\\Web\\Webinar\\Web\\DemoForWebKS\\Reports\\20230323_151802\\ListnerDmoSuite\\20230323_151802\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Raxil.Patel - LP116.1rivet.local"/>
+         <property name="hostAddress" value="172.16.1.132"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+      </properties>
+      <testcase name="Test Cases/Demo/ListnerDemo" time="4.796" classname="Test Cases/Demo/ListnerDemo" status="PASSED">
+         <system-out><![CDATA[2023-03-23 15:18:20 - [TEST_CASE][PASSED] - Test Cases/Demo/ListnerDemo: Test Cases/Demo/ListnerDemo
+
+2023-03-23 15:18:20 - [TEST_STEP][PASSED] - Start listener action : beforeTest: null
+
+2023-03-23 15:18:20 - [TEST_STEP][PASSED] - println("Before test"): null
+
+2023-03-23 15:18:23 - [TEST_STEP][PASSED] - println("I am inside listnerdemo"): null
+
+2023-03-23 15:18:23 - [TEST_STEP][PASSED] - Start listener action : afterTest: null
+
+2023-03-23 15:18:23 - [TEST_STEP][PASSED] - println("After test"): null
+
+2023-03-23 15:18:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Demo/ListnerDemo' .
+
+2023-03-23 15:18:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Demo/ListnerDemo' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-23 15:18:20 - [TEST_SUITE][PASSED] - ListnerDmoSuite: Test Cases/Demo/ListnerDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

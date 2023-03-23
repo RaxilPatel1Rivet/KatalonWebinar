@@ -17,19 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+not_run: CucumberKW.runFeatureFile('Include/features/Login.feature')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('ManualModeDemo/Page_OrangeHRM/input_Username_username'), 'Admin')
-
-WebUI.setEncryptedText(findTestObject('ManualModeDemo/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
-
-WebUI.click(findTestObject('ManualModeDemo/Page_OrangeHRM/button_Login'))
-
-WebUI.verifyTextPresent('Dashboard', false, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
+CucumberKW.runFeatureFileWithTags('Include/features/Login.feature', '@Smoke' as String)
 
